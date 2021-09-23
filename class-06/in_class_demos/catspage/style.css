@@ -9,6 +9,7 @@ body {
   padding: 0px;
 }
 
+
 html {
   margin: 0px;
   padding: 0px;
@@ -17,11 +18,30 @@ html {
 .sideNav {
   /* height: 100vh; */
   position: fixed;
-  height: 240px;
+  height: 100px;
   width: 100vw;
-  display: flex;
-  background-color: #eee;
-  padding: 16px;
+  background-color: #111;
+  text-align: center;
+  line-height: 100px;
+  -webkit-box-shadow: 0px 0px 15px 5px #000000;
+  box-shadow: 0px 0px 15px 5px #000000;
+}
+
+
+a, a:visited, a:active {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+a:active {
+  color: #ff0072;
+}
+
+.sideNav a:hover {
+  color: #ff0072;
 }
 
 .heroTitle {
@@ -39,7 +59,7 @@ html {
 }
 
 .mainContainer {
-  padding-top: 240px;
+  padding-top: 100px;
 }
 
 .contentContainer {
@@ -65,7 +85,7 @@ p {
 }
 
 .thumbnail {
-  width: 33%;
+  width: 31%;
 }
 
 .columnContainer {
