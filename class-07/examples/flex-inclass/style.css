@@ -16,11 +16,11 @@ body {
   /* flex-direction: column; */
   /* flex-direction: row-reverse; */
   /* flex-direction: column-reverse; */
-  /* justify-content: center; */
-  justify-content: space-around;
+  justify-content: center;
+  /* justify-content: space-between; */
   /* justify-content: space-around; */
   height: 75vh;
-  /* align-items: flex-start; */
+  align-items: center;
   /* flex-wrap: wrap; */
 }
 
