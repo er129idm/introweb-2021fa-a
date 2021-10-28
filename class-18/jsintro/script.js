@@ -7,10 +7,10 @@
 //////////////////// Console + Alert ////////////////////
 
 //// sending messages to the developers console
-console.log("YEET!"); //included a string in quotation marks
+console.log("BOO!"); //included a string in quotation marks
 
 //// Popping open an alert window
-// alert("Le Yeet.");
+// alert("Le Boo.");
 
 //////////////////// Variables / Types ////////////////////
 
@@ -24,7 +24,7 @@ console.log("YEET!"); //included a string in quotation marks
 //// string: uses quotation marks to literally mark a string
 
 // var firstName = "Lil";
-// var lastName = "Yeet";
+// var lastName = "Pumpkin";
 // var space = " ";
 //
 // //// concatinating variables
@@ -67,8 +67,8 @@ console.log("YEET!"); //included a string in quotation marks
 //   which starts at ZERO, not ONE.
 // */
 //
-// var firstArray = ["Lil", "Big", "DJ", "Dr.", "Dark", "Social"];
-// var secondArray = ["Yeet", "Xan", "Kitten", "Corona", "Zoom", "Distancing", "Nook"];
+// var firstArray = ["Lil", "Big", "DJ", "Dr.", "Dark", "Mx.", "Tik"];
+// var secondArray = ["Yeet", "Xan", "Kitten", "Pumpkin", "Tok", "Soup", "Nook"];
 //
 // //// Print entire array...
 // // console.log(firstArray); //console log of the full array
@@ -170,13 +170,13 @@ console.log("YEET!"); //included a string in quotation marks
 //
 // function door(num){
 //   if (num == 1){
-//     return "Bathroom";
+//     return "Haunted Bathroom";
 //   }
 //   else if (num == 2){
-//     return "Bedroom";
+//     return "Spooky Bedroom";
 //   }
 //   else if (num == 3){
-//     return "Kitchen";
+//     return "Creepy Kitchen";
 //   }
 //   else {
 //       return "There are only 3 doors!";

@@ -1,14 +1,14 @@
 * {
-  font-family: sans-serif;
   box-sizing: border-box;
 }
 
-body, html, {
+body, html {
   margin: 0px;
   padding: 0px;
 }
 
 body {
+  font-family: sans-serif;
   background-color: #ff0072;
 }
 
@@ -26,11 +26,11 @@ body {
   background-color: #fff;
 }
 
-.flexParent div > p {
+.flexParent > div > p {
   /* text-decoration: underline; */
 }
 
-.flexParent div p:first-child {
+.flexParent > div > p:first-child {
   text-decoration: underline;
   font-weight: bold;
 }
