@@ -15,14 +15,14 @@ box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.53); */
 
 .mainContainerGrid {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: 150px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 1.2vw;
 
   /* Nav on left side */
   grid-template-areas:
     "hero hero hero hero hero hero hero hero"
-    "nav  nav  main main main main main main"
-    "nav  nav  main main main main main main";
+    "nav  main  main main main main main main"
+    "nav  main  main main main main main main";
 
   /* Nav on right side */
   /* grid-template-areas:

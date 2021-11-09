@@ -20,7 +20,7 @@ body {
   background-color: #323dc6;
   box-sizing: border-box;
   padding: 0;
-  transition: padding 3s;
+  transition: all 3s;
 }
 
 /* Style the topnav links */
